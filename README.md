@@ -82,3 +82,6 @@ To use this model for drowsiness detection, follow these steps:
    ```bash
    python detect.py --source <path_to_image_or_video> --weights best.pt
    
+4. **Real-Time Testing**:
+   ```bash
+   python test_on_reallive.py --weights best.pt
